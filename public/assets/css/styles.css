@@ -551,11 +551,20 @@
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
+  .top-\[\%\] {
+    top: %;
+  }
   .top-\[-100\%\] {
     top: -100%;
   }
+  .top-\[0\%\] {
+    top: 0%;
+  }
   .top-\[9\%\] {
     top: 9%;
+  }
+  .top-\[90\%\] {
+    top: 90%;
   }
   .right-4 {
     right: calc(var(--spacing) * 4);
@@ -568,6 +577,9 @@
   }
   .z-0 {
     z-index: 0;
+  }
+  .z-6 {
+    z-index: 6;
   }
   .z-7 {
     z-index: 7;
