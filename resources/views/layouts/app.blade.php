@@ -59,7 +59,7 @@
                             <div class="sm:w-1/2 text-white text-left">
                                 <h1 class="text-5xl sm:text-6xl font-bold leading-tight">
                                     Take Your Business <br />
-                                    <span class="text-4xl bg-gradient-to-br from-blue-500 to-transparent bg-clip-text text-transparent">
+                                    <span class="text-4xl bg-gradient-to-br from-blue-500 to-transparent bg-[#d9261c] bg-clip-text text-transparent">
                                         To The Next Level
                                     </span>
                                 </h1>
@@ -88,7 +88,7 @@
                             <div class="sm:w-1/2 text-white text-left">
                                 <h1 class="text-5xl sm:text-6xl font-bold leading-tight">
                                     Take Your Business <br />
-                                    <span class="text-4xl bg-gradient-to-br from-blue-500 to-transparent bg-clip-text text-transparent">
+                                    <span class="text-4xl bg-gradient-to-br from-blue-500 to-transparent bg-[#d9261c] bg-clip-text text-transparent">
                                         To The Next Level
                                     </span>
                                 </h1>
@@ -117,7 +117,7 @@
                             <div class="sm:w-1/2 text-white text-left">
                                 <h1 class="text-5xl sm:text-6xl font-bold leading-tight">
                                     Take Your Business <br />
-                                    <span class="text-4xl bg-gradient-to-br from-blue-500 to-transparent bg-clip-text text-transparent">
+                                    <span class="text-4xl bg-gradient-to-br from-blue-500 to-transparent bg-[#d9261c] bg-clip-text text-transparent">
                                         To The Next Level
                                     </span>
                                 </h1>
@@ -135,8 +135,8 @@
 
 
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
             <div class="swiper-pagination"></div>
             <div class="autoplay-progress">
                 <svg viewBox="0 0 48 48">
