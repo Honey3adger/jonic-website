@@ -14,9 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('index');
+})->name('home');
+
+
+Route::get('/app', function () {
     return view('layouts.app');
 });
 
-Route::get('/test', function () {
-    return view('layouts.test');
-});
+// Route::get('/test', function () {
+//     return view('layouts.test');
+// });
+
+Route::get('/about', function () {
+    return view('errors.503');
+})->name('pageNan');
+
+Route::get('/investors', function () {
+    return view('errors.503');
+})->name('pageNan');
+
+Route::get('/products', function () {
+    return view('errors.503');
+})->name('pageNan');
+
