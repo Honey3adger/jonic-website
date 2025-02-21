@@ -167,3 +167,26 @@
 .hero2 .swiper-slide:nth-child(10n) {
     background-color: rgb(54, 94, 77);
 }
+
+
+/* footer section */
+footer{
+  height: 70vh;
+}
+
+footer .container .footer-links{
+  height: 80%;
+}
+
+
+footer .container .footer-copy{
+  height: 10%;
+}
+
+footer .container .footer-links .ul1{
+  height: 80%;
+}
+
+footer .container .footer-links .ul2{
+  height: 60%;
+}

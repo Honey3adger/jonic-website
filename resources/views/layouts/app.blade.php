@@ -41,7 +41,11 @@
     <!-- Header -->
     @include('snippets.header')
 
+    <!-- Content -->
     @yield('content')
+
+    <!-- Footer -->
+     @include('snippets.footer')
 
     <!-- Swiper JS (from CDN) -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
