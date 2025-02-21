@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- <title>jonic website</title> -->
     <title>@yield('title', 'Default Title')</title>
     <!-- favicon -->
@@ -35,7 +36,7 @@
 
 </head>
 
-<body class="relative font-[Poppins] bg-gradient-to-t from-[#7fc9a0] to-[#fff] h-screen">
+<body class="relative font-[Poppins] bg-[#fff] h-[100%]">
 
     <!-- Header -->
     @include('snippets.header')
@@ -80,9 +81,21 @@
                     progressCircle.style.setProperty("--progress", 1 - progress);
                     progressContent.textContent = `${Math.ceil(time / 1000)}s`;
                 }
+            },
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+            effect: "cards",
+            grabCursor: true,
+            // loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
             }
         });
     </script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
 </body>
 
 </html>

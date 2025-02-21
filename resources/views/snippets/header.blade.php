@@ -1,6 +1,6 @@
 
 
-<header class=" top-0 bg-white to-[##7fc9a0] z-50 shadow-lg">
+<header class="sticky top-0 bg-white z-50 shadow-lg">
     <nav class="flex justify-between items-center  w-[92%] mx-auto">
         <div class="">
             <img class="w-10" src="{{ asset('assets/images/logo1.jpg') }}" alt="...">
