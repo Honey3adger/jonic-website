@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- <title>jonic website</title> -->
     <title>@yield('title', 'Default Title')</title>
     <!-- favicon -->
@@ -12,6 +13,7 @@
 
     <!-- tailwind -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- custom styles -->
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
@@ -36,7 +38,7 @@
 
 </head>
 
-<body class="relative font-[Poppins] bg-[#fff] h-[100%]">
+<body class="relative font-[Poppins] bg-[#fff] h-screen">
 
     <!-- Header -->
     @include('snippets.header')
@@ -45,14 +47,14 @@
     @yield('content')
 
     <!-- Footer -->
-     @include('snippets.footer')
+    @include('snippets.footer')
 
     <!-- Swiper JS (from CDN) -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- swiper bundle  -->
     <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
-
+ 
     <script>
         const navLinks = document.querySelector('.nav-links')
 
@@ -61,6 +63,8 @@
 
             navLinks.classList.toggle('top-[9%]')
         }
+
+
 
         // Initialize Swiper
         const progressCircle = document.querySelector(".autoplay-progress svg");
